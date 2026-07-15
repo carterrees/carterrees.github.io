@@ -1,0 +1,25 @@
+# Hugo build output
+/public/
+/resources/
+.hugo_build.lock
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# AI agent tool configs and installed skills (not project code)
+.claude/
+.gemini/
+.opencode/
+.codex/
+.agents/
+.sarissa/
+.shared/
+_bmad/
+
+# Local Python/env leftovers
+.venv/
+.conda/
+__pycache__/
+*.py[cod]
