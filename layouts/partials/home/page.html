@@ -1,0 +1,24 @@
+<article class="max-w-full prose dark:prose-invert thinthread-home">
+  <div class="not-prose thinthread-home-brand" aria-label="{{ .Site.Title | plainify }}">
+    {{ with resources.Get "img/thinthread-fullmark.png" }}
+      <img
+        src="{{ .RelPermalink }}"
+        width="{{ .Width }}"
+        height="{{ .Height }}"
+        class="thinthread-home-logo thinthread-home-logo--on-light nozoom"
+        alt="{{ site.Title | plainify }}">
+    {{ end }}
+    {{ with resources.Get "img/thinthread-fullmark-light.png" }}
+      <img
+        src="{{ .RelPermalink }}"
+        width="{{ .Width }}"
+        height="{{ .Height }}"
+        class="thinthread-home-logo thinthread-home-logo--on-dark nozoom"
+        alt="">
+    {{ end }}
+  </div>
+  <section class="w-full">{{ .Content }}</section>
+</article>
+<section>
+  {{ partial "recent-articles/main.html" . }}
+</section>

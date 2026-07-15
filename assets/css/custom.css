@@ -62,8 +62,29 @@ footer nav a {
   height: auto !important;
   max-height: none !important;
   min-width: 10rem;
-  max-width: min(52vw, 13rem) !important;
-  width: min(52vw, 13rem) !important;
+  max-width: min(58vw, 14rem) !important;
+  width: min(58vw, 14rem) !important;
+}
+
+.thinthread-home-brand {
+  margin-bottom: 1.25rem;
+}
+
+.thinthread-home-logo {
+  height: auto;
+  width: min(78vw, 18.5rem);
+}
+
+.thinthread-home-logo--on-dark {
+  display: none;
+}
+
+.dark .thinthread-home-logo--on-light {
+  display: none;
+}
+
+.dark .thinthread-home-logo--on-dark {
+  display: block;
 }
 
 .prose,
