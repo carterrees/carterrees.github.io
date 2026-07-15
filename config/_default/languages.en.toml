@@ -10,8 +10,6 @@ title = "ThinThread"
   rtl = false
   dateFormat = "January 2, 2006"
   description = "Learning notes, project writeups, and technical essays stitched together."
-  logo = "img/thinthread-wordmark.png"
-  secondaryLogo = "img/thinthread-wordmark-light.png"
 
 [params.author]
   name = "Carter Rees, PhD"

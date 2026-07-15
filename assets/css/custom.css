@@ -1,11 +1,34 @@
 :root {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
+  --thinthread-display: "IBM Plex Sans Condensed", "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
   --thinthread-text-size: 1rem;
   --thinthread-line-height: 1.7;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-sans);
 }
 
 body {
   font-size: var(--thinthread-text-size);
   line-height: var(--thinthread-line-height);
+  letter-spacing: -0.005em;
+}
+
+code,
+kbd,
+samp,
+pre,
+.chroma {
+  font-family: var(--font-mono);
 }
 
 h1,
@@ -25,6 +48,7 @@ article header h1,
 .main-menu > a.text-base,
 .main-menu nav a,
 footer nav a {
+  font-family: var(--thinthread-display);
   letter-spacing: -0.025em;
 }
 
@@ -45,10 +69,9 @@ article header h1 {
 }
 
 .main-menu > a.text-base {
-  font-size: var(--thinthread-text-size);
+  font-size: 1.05rem;
   font-weight: 500;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .main-menu nav a,
@@ -57,34 +80,21 @@ footer nav a {
   letter-spacing: 0.02em;
 }
 
-.main-menu .logo {
-  display: block;
-  height: auto !important;
-  max-height: none !important;
-  min-width: 10rem;
-  max-width: min(58vw, 14rem) !important;
-  width: min(58vw, 14rem) !important;
+.prose,
+.article-link--simple,
+.article-link--card,
+.article-link--card-related,
+#TableOfContents,
+.text-neutral-500,
+.text-neutral-400 {
+  font-feature-settings: "kern" 1, "liga" 1;
 }
 
-.thinthread-home-brand {
-  margin-bottom: 1.25rem;
-}
-
-.thinthread-home-logo {
-  height: auto;
-  width: min(78vw, 18.5rem);
-}
-
-.thinthread-home-logo--on-dark {
-  display: none;
-}
-
-.dark .thinthread-home-logo--on-light {
-  display: none;
-}
-
-.dark .thinthread-home-logo--on-dark {
-  display: block;
+.prose code,
+.prose pre,
+.prose kbd,
+.prose samp {
+  font-feature-settings: "kern" 1, "liga" 0;
 }
 
 .prose,
