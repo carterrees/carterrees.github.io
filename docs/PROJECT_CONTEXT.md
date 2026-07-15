@@ -1,4 +1,4 @@
-# Carter Blog
+# ThinThread
 
 **Updated:** 2026-07-14
 **Stack:** Hugo extended + Blowfish + GitHub Pages
@@ -8,7 +8,7 @@
 ## What this is
 
 <!-- BEGIN:human:what-this-is -->
-A personal GitHub Pages blog built with Hugo and the Blowfish theme, where articles are plain Markdown files published at `https://carterrees.github.io`.
+ThinThread is a personal GitHub Pages blog built with Hugo and the Blowfish theme, where articles are plain Markdown files published at `https://carterrees.github.io`.
 <!-- END:human:what-this-is -->
 
 ## Current focus
@@ -44,7 +44,7 @@ No Node.js or Go module workflow is required for the blog setup; keep the writin
 ## Recent meaningful changes
 
 <!-- BEGIN:human:recent-changes -->
-2026-07-14: Converted the starter Python scaffold into a minimal Hugo/Blowfish blog with Markdown posts and GitHub Actions deployment.
+2026-07-14: Converted the starter Python scaffold into ThinThread, a minimal Hugo/Blowfish blog with Markdown posts and GitHub Actions deployment.
 <!-- END:human:recent-changes -->
 
 ## Glossary

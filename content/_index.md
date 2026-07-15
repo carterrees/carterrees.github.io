@@ -1,5 +1,5 @@
 ---
-title: "Carter's Blog"
+title: "ThinThread"
 ---
 
-Concise notes, project writeups, and technical essays.
+Concise notes, project writeups, and technical essays stitched together.

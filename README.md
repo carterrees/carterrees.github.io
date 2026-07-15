@@ -1,6 +1,6 @@
-# Carter's Blog
+# ThinThread
 
-A minimal personal blog powered by [Hugo](https://gohugo.io/) and the [Blowfish](https://blowfish.page/) theme, deployed to GitHub Pages.
+A minimal personal blog named ThinThread, powered by [Hugo](https://gohugo.io/) and the [Blowfish](https://blowfish.page/) theme, deployed to GitHub Pages.
 
 ## Requirements
 

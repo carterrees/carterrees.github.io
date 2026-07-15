@@ -1,0 +1,32 @@
+:root {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --default-font-family: var(--font-sans);
+  --thinthread-display: "IBM Plex Sans Condensed", "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  letter-spacing: -0.005em;
+}
+
+.main-menu > a.text-base,
+.prose h1,
+.prose h2,
+.prose h3,
+#single_header h1,
+article header h1 {
+  font-family: var(--thinthread-display);
+  letter-spacing: -0.025em;
+}
+
+.main-menu > a.text-base {
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.prose h1,
+#single_header h1,
+article header h1 {
+  font-weight: 500;
+}

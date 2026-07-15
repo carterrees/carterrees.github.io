@@ -2,18 +2,18 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "Carter's Blog"
+title = "ThinThread"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "January 2, 2006"
-  description = "Learning notes, project writeups, and technical essays."
+  description = "Learning notes, project writeups, and technical essays stitched together."
 
 [params.author]
   name = "Carter Rees"
-  headline = "Documenting my learning notes."
+  headline = "Learning notes, stitched together."
   bio = "Learning in public through concise technical notes and project writeups."
   links = [
     { github = "https://github.com/carterrees" },
