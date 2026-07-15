@@ -41,4 +41,3 @@
 **Scope choice:** Keep the churn example lightweight because the second post goes deeper on churn. This post should stay about methodology, not churn specifically.
 
 **Open revision option:** If the post should lead with SDV itself doing the correlation work instead of a handwritten data generating process, reshape the draft around that.
-
