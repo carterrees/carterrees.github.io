@@ -1,21 +1,67 @@
 :root {
   --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
   --thinthread-display: "IBM Plex Sans Condensed", "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-sans);
 }
 
 body {
   letter-spacing: -0.005em;
 }
 
-.main-menu > a.text-base,
+code,
+kbd,
+samp,
+pre,
+.chroma {
+  font-family: var(--font-mono);
+}
+
+h1,
+h2,
+h3,
+h4,
 .prose h1,
 .prose h2,
 .prose h3,
+.prose h4,
 #single_header h1,
-article header h1 {
+article header h1,
+.article-link--simple h2,
+.article-link--card h2,
+.article-link--card-related h2,
+.term-link h2,
+.main-menu > a.text-base,
+.main-menu nav a,
+footer nav a {
   font-family: var(--thinthread-display);
   letter-spacing: -0.025em;
+}
+
+.prose h1,
+#single_header h1,
+article header h1 {
+  font-weight: 500;
+}
+
+.prose h2,
+.prose h3,
+.prose h4,
+.article-link--simple h2,
+.article-link--card h2,
+.article-link--card-related h2,
+.term-link h2 {
+  font-weight: 600;
 }
 
 .main-menu > a.text-base {
@@ -25,8 +71,25 @@ article header h1 {
   text-transform: uppercase;
 }
 
-.prose h1,
-#single_header h1,
-article header h1 {
+.main-menu nav a,
+footer nav a {
   font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.prose,
+.article-link--simple,
+.article-link--card,
+.article-link--card-related,
+#TableOfContents,
+.text-neutral-500,
+.text-neutral-400 {
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.prose code,
+.prose pre,
+.prose kbd,
+.prose samp {
+  font-feature-settings: "kern" 1, "liga" 0;
 }
