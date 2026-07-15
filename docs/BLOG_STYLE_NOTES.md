@@ -54,7 +54,9 @@ Reusable parts:
 - Re-outline after research instead of forcing findings into the first outline.
 - Include failure modes and limitations as first-class sections.
 - Fact-check claims against fetched source text.
-- Use a neutral methodology note for research-heavy posts.
+- Do not add a standalone Method Note unless explicitly requested.
+- Do not say a post was adapted from a research folder, local note, or source document.
+- Do not add generic source-status caveats. Discuss limitations only when they change the interpretation of a specific claim.
 
 Parts to soften for the blog:
 

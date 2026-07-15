@@ -14,7 +14,7 @@ title = "ThinThread"
   secondaryLogo = "img/thinthread-wordmark-light.png"
 
 [params.author]
-  name = "Carter Rees"
+  name = "Carter Rees, PhD"
   headline = "Learning notes, stitched together."
   bio = "Learning in public through concise technical notes and project writeups."
   links = [

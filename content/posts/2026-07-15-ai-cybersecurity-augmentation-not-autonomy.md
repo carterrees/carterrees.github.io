@@ -139,10 +139,6 @@ The downstream interpretation is the whole story. If the model helps a human see
 
 AI is ready to be a force multiplier for defenders. It is not ready to be the defender of record.
 
-## Method Note
-
-This post adapts a longer research paper from my Research Papers folder into ThinThread form. I kept the central evidence spine and reduced the source list. I emphasized the operating decision: where AI belongs in a security workflow. Quantitative claims come from the cited research paper's source set. Read recent 2026 sources as early findings. That is especially important for preprints.
-
 ## References
 
 Begimher, A., et al. (2026). SIR-Bench: Investigation depth in security incident response agents. arXiv. https://arxiv.org/abs/2604.12040
