@@ -1,7 +1,7 @@
 ---
 title: "AI Cybersecurity Is an Augmentation Story, Not an Autonomy Story"
 date: 2026-07-15
-draft: true
+draft: false
 tags: ["ai", "cybersecurity", "agents", "security", "llms"]
 summary: "AI is already useful in security operations, but the evidence points to supervised augmentation rather than autonomous defense. The practical question is not whether to use AI, but where to put the leash."
 ---

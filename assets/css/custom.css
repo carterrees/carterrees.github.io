@@ -4,6 +4,8 @@
   --default-font-family: var(--font-sans);
   --default-mono-font-family: var(--font-mono);
   --thinthread-display: "IBM Plex Sans Condensed", "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --thinthread-text-size: 1rem;
+  --thinthread-line-height: 1.7;
 }
 
 html,
@@ -16,6 +18,8 @@ select {
 }
 
 body {
+  font-size: var(--thinthread-text-size);
+  line-height: var(--thinthread-line-height);
   letter-spacing: -0.005em;
 }
 
@@ -65,7 +69,7 @@ article header h1 {
 }
 
 .main-menu > a.text-base {
-  font-size: 1.05rem;
+  font-size: var(--thinthread-text-size);
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -92,4 +96,30 @@ footer nav a {
 .prose kbd,
 .prose samp {
   font-feature-settings: "kern" 1, "liga" 0;
+}
+
+.prose,
+.prose :where(h1, h2, h3, h4, h5, h6, p, li, blockquote, figcaption, table, th, td),
+#single_header h1,
+article header h1,
+article :where(.text-xs, .text-sm, .text-base, .text-lg, .text-xl, .text-2xl, .text-3xl, .text-4xl, .text-5xl),
+.article-link--simple :where(h2, p),
+.article-link--card :where(h2, p),
+.article-link--card-related :where(h2, p),
+.term-link h2,
+#TableOfContents,
+#TableOfContents :where(a, li) {
+  font-size: var(--thinthread-text-size) !important;
+  line-height: var(--thinthread-line-height) !important;
+}
+
+.prose :where(h1, h2, h3, h4, h5, h6),
+#single_header h1,
+article header h1 {
+  margin-bottom: 0.75rem;
+}
+
+.prose hr,
+article hr {
+  display: none;
 }

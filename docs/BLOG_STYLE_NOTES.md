@@ -27,6 +27,8 @@ Measured structure from the article body:
 - Include a future-challenges or limitations section before references.
 - Use appendices for useful supporting material that would interrupt the main story.
 - Write as an expert explainer: direct, technical, calm, and synthesis-heavy.
+- Keep font sizes visually uniform across headings, body, and supporting sections. Headings should signal structure through wording and spacing, not oversized type.
+- Never use horizontal rules or section-divider lines inside posts.
 
 ## ThinThread Length Target
 
@@ -100,3 +102,5 @@ Suggested default word count:
 - Use 5,500 to 7,000 words only for flagship reference posts.
 
 Important style constraint: the downstream interpretation is the star. A post should not stop at "the model worked." It should explain what the result means, what decision changes, and where the interpretation can fail.
+
+Visual style constraint: keep font sizes consistent across headers, body text, and supporting sections, and never add section-divider lines.
