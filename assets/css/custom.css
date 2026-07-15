@@ -81,6 +81,14 @@ footer nav a {
   letter-spacing: 0.02em;
 }
 
+.main-menu .logo {
+  display: block;
+  height: auto;
+  max-height: 2rem !important;
+  max-width: 10rem !important;
+  width: auto;
+}
+
 .prose,
 .article-link--simple,
 .article-link--card,
